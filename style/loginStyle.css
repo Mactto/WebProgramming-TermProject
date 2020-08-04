@@ -1,0 +1,99 @@
+body {
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.label {
+  background-image: url('C:/Users/User/Desktop/web/images/loginLabel.png');
+  background-repeat: no-repeat;
+  height: 30px;
+  background-color: rgb(241, 240, 229);
+  margin-bottom: 100px;
+}
+
+.main {
+  height: 500px;
+  align-content: center;
+  background-position: center;
+}
+
+.main fieldset {
+  float: left;
+  width: 350px;
+  padding: 20px;
+  border-right: 0px;
+  border-left: 0px;
+}
+
+.main legend {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 10px solid red;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  background-color: red;
+  color: white;
+}
+
+.main #loginForm {
+  margin-left: 450px;
+}
+
+.main #registerForm {
+  margin-left: 970px;
+}
+
+.main .conText {
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+
+.main .content {
+  text-align: center;
+  font-size: 20px;
+}
+
+.main #Scontent {
+  font-size: 15px
+}
+
+.main #text {
+  color: red;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.main button[type="submit"] {
+  width:300px;
+  height:40px;
+  border: 1px solid red;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+}
+
+.main input[type="email"], .main input[type="password"] {
+  width: 300px;
+  height: 40px;
+  line-height: normal;
+  font-family: inherit;
+  border: 1px solid #999;
+  ontline-style: none;
+}
+
+img {
+  float: right;
+  margin-right: 250px;
+}
+
+.ebtn {
+  background-image: url('C:/Users/User/Desktop/web/images/email.png');
+  background-repeat: no-repeat;
+  background-postion: left top;
+}
+
+.pbtn {
+  background-image: url('C:/Users/User/Desktop/web/images/password.png');
+  background-repeat: no-repeat;
+  background-postion: left top;
+}

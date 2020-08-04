@@ -1,0 +1,15 @@
+.middle {
+  margin-top: 50px;
+  background-image: url('C:/Users/User/Desktop/web/images/middle.png');
+  background-repeat: no-repeat;
+  height: 800px;
+}
+
+.table {
+  border-collapse: collapse;
+  background: white;
+}
+
+.bottom {
+  height: 800px;
+}

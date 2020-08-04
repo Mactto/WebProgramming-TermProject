@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>영화예매사이트</title>
+  <link rel="stylesheet" type="text/css" href="C:/Users/User/Desktop/web/style/headerStyle.css">
+  <link rel="stylesheet" type="text/css" href="C:/Users/User/Desktop/web/style/loginStyle.css">
+  <link href="https://fonts.googleapis.com/css?family=Gothic+A1&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- 최상단 -->
+  <div class=mostTop></div>
+
+  <!-- 상단 -->
+  <div class=top>
+      <ul>
+        <li class=getInfo><a href="#">로그인</a></li>
+        <li class=sepe> | </li>
+        <li class=getInfo><a href="#">회원가입</a></li>
+        <li class=sepe> | </li>
+        <li class=menu><a href="#">MyPage</a></li>
+        <li class=sepe> | </li>
+        <li class=menu><a href="#">고객센터</a></li>
+      </ul>
+      <a href="C:/Users/User/Desktop/web/codes/home.html" target="_self">
+        <img src="C:/Users/User/Desktop/web/images/banner.png">
+      </a>
+  </div>
+
+  <div class=label></div>
+
+  <div class=main>
+      <img src="C:/Users/User/Desktop/web/images/sideAdv.png" alt="sideAdv">
+      <form method="post" id="loginForm" action="C:/Users/User/Desktop/web/codes/home.html">
+        <fieldset>
+          <legend>로그인</legend>
+          <div class=content>
+            <div class="conText">아이디 비밀번호를 입력하신 후, 로그인 버튼을 클릭해주세요.</div>
+            <div>
+              <label for="loginId"></label>
+              <input class="ebtn" type="email" id="loginId" name="loginId" placeholder="             |  email"><br><br>
+              <label for="loginPw"></label>
+              <input class="pbtn" type="password" id="loginPw" name="password" placeholder="             |  password">
+            </div><p>
+            <div id=Scontent>
+              <input type="checkbox" id="keepLogin" name="keepLogin">
+              <label for="keepLogin"><span>로그인 상태 유지&nbsp;&nbsp;&nbsp;&nbsp;</span></label><br><br>
+              <button type="submit">로그인</button>
+            </div>
+          </div>
+        </fieldset>
+      </form>
+
+      <form method="post" id="registerForm" action="C:/Users/User/Desktop/web/codes/login.html">
+        <fieldset>
+          <legend>회원가입</legend>
+          <div class="content">
+            <label for="registerId"> &nbsp;</label>
+            <div id="text"> * 입력하신 이메일이 아이디로 사용됩니다.</div>
+            <input class="ebtn" type="email" id="registerId" name="registerId" placeholder="             |  email">
+            <label for="registerPw"> &nbsp;</label>
+            <input class="pbtn" type="password" id="registerPw" name="password" placeholder="             |  password"><br><br>
+            <input type="radio" name="gender" value="mail"><font size="3px">남자&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="radio" name="gender" value="femail">여자</font><br><br>
+            <button type="submit" onclick="alert('회원가입이 완료되었습니다!\n로그인을 해주세요.')">회원가입</button>
+          </div><p>
+        </fieldset>
+      </form>
+  </div>
+  <div class=mostBottom></div>
+</body>
+</html>
